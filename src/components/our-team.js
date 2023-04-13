@@ -6,6 +6,7 @@ import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from './section-heading';
 import TeamMember from './team-member';
+import "../index.css"
 
 import avatar1 from '../images/members/avt.jpeg';
 import avatar2 from '../images/members/avt.jpeg';
@@ -247,7 +248,6 @@ const OurTeam = () => {
             <Image src={arrowRight} alt="arrow right" />
           </button>
         )}
-
         <Swiper
           ref={swiperRef}
           spaceBetween={30}

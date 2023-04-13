@@ -39,6 +39,13 @@ const TeamMember = ({ member }) => {
 export default TeamMember;
 
 const styles = {
+  section: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+  },
   avatar: {
     alignItems: 'center',
     justifyContent: 'center',
