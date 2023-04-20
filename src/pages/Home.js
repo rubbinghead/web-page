@@ -7,6 +7,7 @@ import Intro from '../components/Intro';
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
 import People from '../components/People';
+import OurTeam from '../components/our-team';
 
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
             <Hero />
             <Intro />
             <Services />
-            <People />
+            <OurTeam/>
+            {/* <People /> */}
             {/* <Portfolio /> */}
             <Clients />
             <Cta/>

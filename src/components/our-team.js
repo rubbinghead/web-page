@@ -20,11 +20,11 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    name: 'Dat Ngo',
+    designation: 'Kaggle Competition Master',
     socialLinks: [
       {
-        name: 'twitter',
+        name: 'kaggle',
         link: 'http://twitter.com',
       },
       {
@@ -32,7 +32,7 @@ const data = [
         link: 'http://github.com',
       },
       {
-        name: 'dribbble',
+        name: 'linkedin',
         link: 'http://dribbble.com',
       },
     ],
@@ -40,127 +40,52 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
+    name: 'Tu Nguyen',
+    designation: 'AI Researcher',
     socialLinks: [
       {
-        name: 'twitter',
-        link: 'http://twitter.com',
+        name: 'github',
+        link: 'http://github.com/anhtunguyen98',
       },
       {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/tuna-ptit/',
       },
     ],
   },
   {
     id: 3,
     avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
+    name: 'Thoai Bui',
+    designation: 'Cloud AI Researcher',
     socialLinks: [
       {
-        name: 'twitter',
-        link: 'http://twitter.com',
+        name: 'github',
+        link: 'https://github.com/ThanThoai',
       },
       {
-        name: 'github',
-        link: 'http://github.com',
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/bui-thoai-a840771a7/',
       },
     ],
   },
   {
     id: 4,
     avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
+    name: 'Hoang Mike',
+    designation: 'AI Researcher',
     socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
       {
         name: 'github',
-        link: 'http://github.com',
+        link: 'https://github.com/ThanThoai',
       },
       {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/bui-thoai-a840771a7/',
       },
     ],
   },
-  {
-    id: 5,
-    avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 6,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 7,
-    avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-    ],
-  },
-  {
-    id: 8,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
+
 ];
 
 const OurTeam = () => {
@@ -252,7 +177,7 @@ const OurTeam = () => {
           ref={swiperRef}
           spaceBetween={30}
           watchSlidesVisibility={true}
-          slidesPerView={5}
+          slidesPerView={4}
           breakpoints={breakpoints}
         >
           {data?.map((item) => (

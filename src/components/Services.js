@@ -40,7 +40,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={tts} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Text To Speech Solutions</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                        Text to speech soutions is also known as TTS, read aloud, or even speech synthesis. It simply means using artificial intelligence to read words aloud be; it from a PDF, email, docs, or any website.
                                     </p>
                                 </div>
                             </div>
@@ -49,16 +49,16 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={stt} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Speech To Text Solutions</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                        Speech-to-text (STT) is a technology that converts spoken language into written text using speech recognition algorithms. It has applications in transcription services, voice assistants, and accessibility tools for individuals with hearing impairments, making spoken content accessible in written form.
                                     </p>
                                 </div>
                             </div>
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={ocr} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">OCR Solutions</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">OCR Solution</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
+                                        OCR (Optical Character Recognition) is a technology that automates the extraction of printed or written text from scanned documents or image files, converting it into machine-readable text for data processing, such as editing or searching.
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={ai_generation} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">AI Generation Solution</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                        AI generation involves using artificial intelligence (AI) technologies to automatically create content, such as text, images, or videos, utilizing machine learning algorithms and neural networks. It has applications in content creation, marketing, and design, and aims to replicate human-like creativity and decision-making.
                                     </p>
                                 </div>
                             </div>  
@@ -76,7 +76,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={seaching} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Searching Solution</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                        Searching Solution allows users to search for information or resources on the Internet or within a specific database by entering keywords or search queries, and displays a list of results based on relevance or other factors. Examples include Google, Bing, and Yahoo.
                                     </p>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={chatbot} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Chatbot Solution</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                        A chatbot is an AI-powered software program that communicates with users through text or voice interfaces, simulating human-like conversations. It is used in various applications, such as customer service and virtual assistance, to provide automated responses to user queries.
                                     </p>
                                 </div>
                             </div>  
@@ -94,7 +94,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={rs} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Recommendations Systems</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                        Recommendation systems are algorithms that provide personalized suggestions based on user preferences, past interactions, and data analysis. Widely used in e-commerce, content streaming, and online advertising, they enhance user experience and engagement.
                                     </p>
                                 </div>
                             </div>                    
